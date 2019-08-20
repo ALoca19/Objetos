@@ -11,9 +11,9 @@ package Objetos;
  */
 public class Arbol {
     
-    public String nombreArbol;
-    public String fruto;
-    public String region;
+    private String nombreArbol;
+    private String fruto;
+    private String region;
 
     public Arbol(String nombreArbol, String fruto, String region) {
         this.nombreArbol = nombreArbol;
@@ -31,5 +31,30 @@ public class Arbol {
     {
         System.out.println("El "+nombreArbol+" crece en "+region);
     }
+
+    public String getNombreArbol() {
+        return nombreArbol;
+    }
+
+    public void setNombreArbol(String nombreArbol) {
+        this.nombreArbol = nombreArbol;
+    }
+
+    public String getFruto() {
+        return fruto;
+    }
+
+    public void setFruto(String fruto) {
+        this.fruto = fruto;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+    
     
 }

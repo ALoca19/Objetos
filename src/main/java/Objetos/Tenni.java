@@ -10,9 +10,9 @@ package Objetos;
  * @author Alumno
  */
 public class Tenni {
-    public int precio;
-    public String color;
-    public String marca;
+    private int precio;
+    private String color;
+    private String marca;
 
     public Tenni(int precio, String color, String marca) {
         this.precio = precio;
@@ -30,5 +30,30 @@ public class Tenni {
         this.precio = precio;
         this.marca = marca;
     }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
     
 }

@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Erizo {
-    public String genero;
-    public String especie;
-    public String nombre;
+    private String genero;
+    private String especie;
+    private String nombre;
 
     public Erizo(String genero, String especie, String nombre) {
         this.genero = genero;
@@ -30,6 +30,32 @@ public class Erizo {
         this.especie = especie;
         this.nombre = nombre;
     } 
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
+    
     
     
 }

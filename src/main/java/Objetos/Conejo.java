@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Conejo {
-    public String genero;
-    public String nombre;
-    public int tamaño;
+    private String genero;
+    private String nombre;
+    private int tamaño;
 
     public Conejo(String genero, String nombre, int tamaño) {
         this.genero = genero;
@@ -30,4 +30,30 @@ public class Conejo {
         this.genero = "Desconocido";
         this.nombre = "Desconocido";
     }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getTamaño() {
+        return tamaño;
+    }
+
+    public void setTamaño(int tamaño) {
+        this.tamaño = tamaño;
+    }
+    
+    
 }

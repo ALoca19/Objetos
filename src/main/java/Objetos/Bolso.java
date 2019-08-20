@@ -11,9 +11,9 @@ package Objetos;
  */
 public class Bolso {
     
-    public String marca;
-    public int precio;
-    public String material;
+    private String marca;
+    private int precio;
+    private String material;
 
     public Bolso(String marca, int precio, String material) {
         this.marca = marca;
@@ -31,4 +31,30 @@ public class Bolso {
     {
         System.out.println("El bolso de marca "+marca+" cuesta "+precio);
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+    
+    
 }

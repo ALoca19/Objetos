@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Casa {
-    public int numPuertas;
-    public String direccion;
-    public int numero;
+    private int numPuertas;
+    private String direccion;
+    private int numero;
 
     public Casa(int numPuertas, String direccion, int numero) {
         this.numPuertas = numPuertas;
@@ -31,5 +31,30 @@ public class Casa {
         this.direccion = direccion;
         this.numero = numero;
     }
+
+    public int getNumPuertas() {
+        return numPuertas;
+    }
+
+    public void setNumPuertas(int numPuertas) {
+        this.numPuertas = numPuertas;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    
     
 }

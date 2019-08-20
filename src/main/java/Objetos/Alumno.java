@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Alumno {
-    public String nombre;
-    public String grupo;
-    public int semestre;
+    private String nombre;
+    private String grupo;
+    private int semestre;
 
     public Alumno(String nombre, String grupo, int semestre) {
         this.nombre = nombre;
@@ -30,6 +30,31 @@ public class Alumno {
     {
         System.out.println("Mi nombre es "+nombre+" voy en "+semestre+" en el grupo "+grupo);
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getGrupo() {
+        return grupo;
+    }
+
+    public void setGrupo(String grupo) {
+        this.grupo = grupo;
+    }
+
+    public int getSemestre() {
+        return semestre;
+    }
+
+    public void setSemestre(int semestre) {
+        this.semestre = semestre;
+    }
+    
     
     
             

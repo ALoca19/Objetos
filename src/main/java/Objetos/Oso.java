@@ -11,9 +11,9 @@ package Objetos;
  */
 public class Oso {
     
-    public int peso;
-    public String raza;
-    public String genero;
+    private int peso;
+    private String raza;
+    private String genero;
 
     public Oso(int peso, String raza, String genero) {
         this.peso = peso;
@@ -31,5 +31,30 @@ public class Oso {
     {
         System.out.println("El oso "+raza+" pesa "+peso);
     }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    
     
 }

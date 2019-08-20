@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Gato {
-    public String especie;
-    public int edad;
-    public String color;
+    private String especie;
+    private int edad;
+    private String color;
 
     public Gato(String especie, int edad, String color) {
         this.especie = especie;
@@ -30,5 +30,30 @@ public class Gato {
     {
         System.out.println("El gato "+especie+" es color "+color);
     }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
     
 }

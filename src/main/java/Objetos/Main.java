@@ -10,7 +10,7 @@ public class Main {
     
     public static void main(String[] args) {
         Alumno alumno=new Alumno("Ana", "2CM1", 3);
-        Animal animal=new Animal("Panda", "En extincion", 10000);
+        Animal animal=new Animal("Panda", "En extincion", "10000");
         AnimeAgretsuko anime=new AnimeAgretsuko("Retsuko", "Fenneko", "Haida");
         Arbol arbol=new Arbol("Abeto", "ninguno", "Alpes");
         Bolso bolso= new Bolso("Amore", 6500, "Cuero");
@@ -30,6 +30,9 @@ public class Main {
         Persona persona=new Persona("Ana", 19);
         Rectangulo rec=new Rectangulo(5, 10);
         Tenni teni=new Tenni(6500, "Puma");
+        
+        anime.setAmigadelPerPri("Prueba");
+        System.out.println("Pueba: "+anime.getAmigadelPerPri());
         
         
         

@@ -53,6 +53,18 @@ public class AnimeAgretsuko {
     public String getConQuienLosFansQuierenChippearAlPerPrincipal() {
         return conQuienLosFansQuierenChippearAlPerPrincipal;
     }
+
+    public void setPersonajePrincipal(String personajePrincipal) {
+        this.personajePrincipal = personajePrincipal;
+    }
+
+    public void setAmigadelPerPri(String amigadelPerPri) {
+        this.amigadelPerPri = amigadelPerPri;
+    }
+
+    public void setConQuienLosFansQuierenChippearAlPerPrincipal(String conQuienLosFansQuierenChippearAlPerPrincipal) {
+        this.conQuienLosFansQuierenChippearAlPerPrincipal = conQuienLosFansQuierenChippearAlPerPrincipal;
+    }
     
     
     

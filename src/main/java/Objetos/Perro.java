@@ -33,6 +33,19 @@ public class Perro {
     public String getRaza() {
         return raza;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+    
     
     
 }

@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Elefante {
-    public String especie;
-    public int numExistencia;
-    public String region;
+    private String especie;
+    private int numExistencia;
+    private String region;
 
     public Elefante(String especie, int numExistencia, String region) {
         this.especie = especie;
@@ -29,6 +29,31 @@ public class Elefante {
         this.especie = "Desconocida";
         this.region = "Desconocida";
     }
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public int getNumExistencia() {
+        return numExistencia;
+    }
+
+    public void setNumExistencia(int numExistencia) {
+        this.numExistencia = numExistencia;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
+    
     
     
 }

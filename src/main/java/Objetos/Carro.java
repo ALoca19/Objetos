@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Carro {
-    public String marca;
-    public int precio;
-    public int numPuertas;
+    private String marca;
+    private int precio;
+    private int numPuertas;
 
     public Carro(String marca, int precio, int numPuertas) {
         this.marca = marca;
@@ -29,6 +29,31 @@ public class Carro {
     public void informacionCarro() {
         System.out.println("El carro cuesta "+precio);
     }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
+
+    public int getNumPuertas() {
+        return numPuertas;
+    }
+
+    public void setNumPuertas(int numPuertas) {
+        this.numPuertas = numPuertas;
+    }
+    
     
     
 }

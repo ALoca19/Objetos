@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Caricatura {
-    public String nombreCaricatura;
-    public int numTemporadas;
-    public int añoEstreno;
+    private String nombreCaricatura;
+    private int numTemporadas;
+    private int añoEstreno;
 
     public Caricatura(String nombreCaricatura, int numTemporadas, int añoEstreno) {
         this.nombreCaricatura = nombreCaricatura;
@@ -30,4 +30,31 @@ public class Caricatura {
     {
         System.out.println("La caricatura de "+nombreCaricatura+ "se creo en "+añoEstreno);
     }
+
+    public String getNombreCaricatura() {
+        return nombreCaricatura;
+    }
+
+    public void setNombreCaricatura(String nombreCaricatura) {
+        this.nombreCaricatura = nombreCaricatura;
+    }
+
+    public int getNumTemporadas() {
+        return numTemporadas;
+    }
+
+    public void setNumTemporadas(int numTemporadas) {
+        this.numTemporadas = numTemporadas;
+    }
+
+    public int getAñoEstreno() {
+        return añoEstreno;
+    }
+
+    public void setAñoEstreno(int añoEstreno) {
+        this.añoEstreno = añoEstreno;
+    }
+    
+    
+    
 }

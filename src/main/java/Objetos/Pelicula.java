@@ -10,9 +10,9 @@ package Objetos;
  * @author anita
  */
 public class Pelicula {
-    public double duracion;
-    public String titulo;
-    public String genero;
+    private double duracion;
+    private String titulo;
+    private String genero;
 
     public Pelicula(double duracion, String titulo, String genero) {
         this.duracion = duracion;
@@ -30,6 +30,31 @@ public class Pelicula {
     {
         System.out.println("La pelicula "+titulo+" dura "+duracion);
     }
+
+    public double getDuracion() {
+        return duracion;
+    }
+
+    public void setDuracion(double duracion) {
+        this.duracion = duracion;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    
     
     
     
