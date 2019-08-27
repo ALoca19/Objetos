@@ -40,6 +40,11 @@ public class Perro extends Canino{
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "El perro se llama "+nombre+" y es de color "+color;
+    }
+
     
     
 }
