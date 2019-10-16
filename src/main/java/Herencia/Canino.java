@@ -9,9 +9,11 @@ package Herencia;
  *
  * @author anita
  */
-public class Canino extends Animal{
+public abstract class Canino extends Animal{
     private String raza;
 
+    public abstract void alimentarse();
+    
     public Canino(String raza, double tamaño, String familia, int edad, double peso) {
         super(tamaño, familia, edad, peso);
         this.raza = raza;

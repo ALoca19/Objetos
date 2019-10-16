@@ -25,6 +25,8 @@ public class Main {
         {
             System.out.println("Los perros se llaman diferente");
         }
+        
+        p.alimentarse();
       
     
 }

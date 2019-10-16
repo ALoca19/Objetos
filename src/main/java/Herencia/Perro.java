@@ -19,11 +19,16 @@ public class Perro extends Canino{
         this.color = color;
     }
 
+    
     public Perro() {
         this.nombre = "";
         this.color = "";
     }
 
+    public void alimentarse()
+    {
+        System.out.println("El perro come de su tazon");
+    }
     public String getNombre() {
         return nombre;
     }

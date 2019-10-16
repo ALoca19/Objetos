@@ -22,7 +22,10 @@ public class Lobo extends Canino{
         this.region = region;
     }
 
-    
+    public void alimentarse()
+    {
+        System.out.println("El lobo caza para alimentarse");
+    }
 
     
 
