@@ -54,6 +54,11 @@ public class Tenni {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    @Override
+    public String toString() {
+        return "Tenni{" + "precio=" + precio + ", color=" + color + ", marca=" + marca + '}';
+    }
     
     
 }

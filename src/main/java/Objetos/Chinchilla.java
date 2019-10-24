@@ -54,6 +54,11 @@ public class Chinchilla {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
+
+    @Override
+    public String toString() {
+        return "Chinchilla{" + "genero=" + genero + ", nombre=" + nombre + ", cantidad=" + cantidad + '}';
+    }
     
     
 }

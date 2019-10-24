@@ -54,6 +54,11 @@ public class Conejo {
     public void setTamaño(int tamaño) {
         this.tamaño = tamaño;
     }
+
+    @Override
+    public String toString() {
+        return "Conejo{" + "genero=" + genero + ", nombre=" + nombre + ", tama\u00f1o=" + tamaño + '}';
+    }
     
     
 }

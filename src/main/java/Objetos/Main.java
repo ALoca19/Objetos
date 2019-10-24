@@ -1,5 +1,7 @@
 package Objetos;
 
+import java.util.ArrayList;
+
 
 public class Main {
     
@@ -33,6 +35,34 @@ public class Main {
         
         anime.setAmigadelPerPri("Prueba");
         System.out.println("Pueba: "+anime.getAmigadelPerPri());
+        
+        ArrayList<Object> a = new ArrayList<Object>();
+        a.add(alumno);
+        a.add(animal);
+        a.add(arbol);
+        a.add(bolso);
+        a.add(cartoon);
+        a.add(carro);
+        a.add(casa);
+        a.add(chin);
+        a.add(conejo);
+        a.add(elefante);
+        a.add(erizo);
+        a.add(gato);
+        a.add(libro);
+        a.add(lobo);
+        a.add(oso);
+        a.add(movie);
+        a.add(perro);
+        a.add(persona);
+        a.add(rec);
+        a.add(teni);
+        
+        for (Object elemento: a) 
+        { 
+            System.out.println(elemento.toString()); 
+        } 
+        
         
         
         

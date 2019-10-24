@@ -65,6 +65,11 @@ public class AnimeAgretsuko {
     public void setConQuienLosFansQuierenChippearAlPerPrincipal(String conQuienLosFansQuierenChippearAlPerPrincipal) {
         this.conQuienLosFansQuierenChippearAlPerPrincipal = conQuienLosFansQuierenChippearAlPerPrincipal;
     }
+
+    @Override
+    public String toString() {
+        return "AnimeAgretsuko{" + "personajePrincipal=" + personajePrincipal + ", amigadelPerPri=" + amigadelPerPri + ", conQuienLosFansQuierenChippearAlPerPrincipal=" + conQuienLosFansQuierenChippearAlPerPrincipal + '}';
+    }
     
     
     

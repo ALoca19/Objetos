@@ -55,6 +55,11 @@ public class Bolso {
     public void setMaterial(String material) {
         this.material = material;
     }
+
+    @Override
+    public String toString() {
+        return "Bolso{" + "marca=" + marca + ", precio=" + precio + ", material=" + material + '}';
+    }
     
     
 }

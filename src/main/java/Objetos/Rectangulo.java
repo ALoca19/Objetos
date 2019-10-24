@@ -55,6 +55,11 @@ public class Rectangulo {
     public void setArea(int area) {
         this.area = area;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangulo{" + "lado1=" + lado1 + ", lado2=" + lado2 + ", area=" + area + '}';
+    }
     
     
 }

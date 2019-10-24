@@ -55,6 +55,11 @@ public class Arbol {
     public void setRegion(String region) {
         this.region = region;
     }
+
+    @Override
+    public String toString() {
+        return "Arbol{" + "nombreArbol=" + nombreArbol + ", fruto=" + fruto + ", region=" + region + '}';
+    }
     
     
 }

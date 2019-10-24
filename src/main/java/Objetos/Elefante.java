@@ -53,6 +53,11 @@ public class Elefante {
     public void setRegion(String region) {
         this.region = region;
     }
+
+    @Override
+    public String toString() {
+        return "Elefante{" + "especie=" + especie + ", numExistencia=" + numExistencia + ", region=" + region + '}';
+    }
     
     
     

@@ -54,6 +54,11 @@ public class Caricatura {
     public void setAñoEstreno(int añoEstreno) {
         this.añoEstreno = añoEstreno;
     }
+
+    @Override
+    public String toString() {
+        return "Caricatura{" + "nombreCaricatura=" + nombreCaricatura + ", numTemporadas=" + numTemporadas + ", a\u00f1oEstreno=" + añoEstreno + '}';
+    }
     
     
     

@@ -54,6 +54,11 @@ public class Pelicula {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    @Override
+    public String toString() {
+        return "Pelicula{" + "duracion=" + duracion + ", titulo=" + titulo + ", genero=" + genero + '}';
+    }
     
     
     

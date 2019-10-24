@@ -31,4 +31,11 @@ public class Lobo {
     {
         System.out.println("La especie "+especie+" habita en"+region);
     }
+
+    @Override
+    public String toString() {
+        return "Lobo{" + "enPeligro=" + enPeligro + ", especie=" + especie + ", region=" + region + '}';
+    }
+    
+    
 }

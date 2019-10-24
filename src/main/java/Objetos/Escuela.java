@@ -50,6 +50,11 @@ public class Escuela {
     public void setHorario(String horario) {
         this.horario = horario;
     }
+
+    @Override
+    public String toString() {
+        return "Escuela{" + "nombre=" + nombre + ", grado=" + grado + ", horario=" + horario + '}';
+    }
     
     
 }

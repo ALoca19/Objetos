@@ -55,6 +55,11 @@ public class Animal {
     public void setNumEjemplares(String numEjemplares) {
         this.numEjemplares = numEjemplares;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "nombreTipo=" + nombreTipo + ", enPeligro=" + enPeligro + ", numEjemplares=" + numEjemplares + '}';
+    }
     
     
     

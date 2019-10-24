@@ -55,6 +55,11 @@ public class Oso {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    @Override
+    public String toString() {
+        return "Oso{" + "peso=" + peso + ", raza=" + raza + ", genero=" + genero + '}';
+    }
     
     
 }

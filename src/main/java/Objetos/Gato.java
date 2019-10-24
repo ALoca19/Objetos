@@ -54,6 +54,11 @@ public class Gato {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Gato{" + "especie=" + especie + ", edad=" + edad + ", color=" + color + '}';
+    }
     
     
 }

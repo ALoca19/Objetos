@@ -45,6 +45,11 @@ public class Perro {
     public void setRaza(String raza) {
         this.raza = raza;
     }
+
+    @Override
+    public String toString() {
+        return "Perro{" + "nombre=" + nombre + ", edad=" + edad + ", raza=" + raza + '}';
+    }
     
     
     
